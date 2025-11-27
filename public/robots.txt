@@ -1,0 +1,8 @@
+# https://www.robotstxt.org/
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*.pdf$
+
+Sitemap: https://hazem-ashraf.vercel.app/sitemap.xml
