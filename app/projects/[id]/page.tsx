@@ -11,7 +11,7 @@ import { useTranslation } from "@/lib/i18n"
 import Image from "next/image"
 import { useParams } from "next/navigation"
 import { useMemo } from "react"
-
+ 
 export default function ProjectDetailPage() {
   const params = useParams()
   const id = params.id as string
